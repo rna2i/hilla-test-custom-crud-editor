@@ -14,7 +14,6 @@ public class TestObj {
     boolean enabled;
 
     @Nonnull
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "MM/dd/yyyy hh:mm")
     LocalDateTime timestamp;
 
     @Nonnull
